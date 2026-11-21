@@ -1,0 +1,15 @@
+dependence,target,exact_value,mlae_mean,mlae_sd
+Gaussian rho=0 (independent),joint_exceedance,0.00125675,0.00125676,4.731e-05
+Gaussian rho=0 (independent),layer_payout,0.00722546,0.00722466,0.000105997
+Gaussian rho=0.5,joint_exceedance,0.0075905,0.00759628,0.000108388
+Gaussian rho=0.5,layer_payout,0.0105261,0.0104778,0.000277243
+t df=30 rho=0.5,joint_exceedance,0.008179,0.00822444,0.000303834
+t df=30 rho=0.5,layer_payout,0.0105956,0.0105355,0.000414342
+t df=10 rho=0.5,joint_exceedance,0.00927225,0.00929392,9.77255e-05
+t df=10 rho=0.5,layer_payout,0.0106606,0.0106654,0.000125899
+t df=5 rho=0.5,joint_exceedance,0.010738,0.0107261,0.000140515
+t df=5 rho=0.5,layer_payout,0.0107874,0.0107508,0.000322581
+t df=3 rho=0.5,joint_exceedance,0.0125582,0.0125774,0.000140589
+t df=3 rho=0.5,layer_payout,0.0109515,0.0109401,0.000116433
+t df=2 rho=0.5,joint_exceedance,0.0142808,0.0143681,0.00021392
+t df=2 rho=0.5,layer_payout,0.0111261,0.0111395,0.000135609

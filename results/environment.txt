@@ -1,0 +1,11 @@
+python 3.12.3
+qiskit 2.6.2
+numpy 2.5.4
+scipy 1.18.1
+matplotlib 3.11.2
+platform Linux-6.18.44-fc-v726-x86_64-with-glibc2.39
+machine x86_64
+simulator: qiskit.quantum_info.Statevector (exact, noiseless) for circuit checks;
+           closed form sin^2((2m+1)*theta) + binomial shot sampling for the convergence runs;
+           toy per-oracle-call depolarising model for the noise study (NOT a hardware simulation)
+quick_mode False

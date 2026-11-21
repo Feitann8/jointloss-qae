@@ -1,0 +1,4 @@
+qubits_per_region,total_qubits,A_cx,A_depth,Q_cx,Q_depth
+2,5,27,54,90,172
+3,7,121,194,364,517
+4,9,503,1006,1232,2197

@@ -1,0 +1,287 @@
+{
+  "max_circuit_vs_theory_abs_diff": 1.4066525722000733e-13,
+  "circuit_resources": [
+    {
+      "qubits_per_region": 2,
+      "total_qubits": 5,
+      "A_cx": 27,
+      "A_depth": 54,
+      "Q_cx": 90,
+      "Q_depth": 172
+    },
+    {
+      "qubits_per_region": 3,
+      "total_qubits": 7,
+      "A_cx": 121,
+      "A_depth": 194,
+      "Q_cx": 364,
+      "Q_depth": 517
+    },
+    {
+      "qubits_per_region": 4,
+      "total_qubits": 9,
+      "A_cx": 503,
+      "A_depth": 1006,
+      "Q_cx": 1232,
+      "Q_depth": 2197
+    }
+  ],
+  "convergence": [
+    {
+      "target": "joint_exceedance",
+      "exact_value": 0.01255825,
+      "max_power": 0,
+      "queries": 100,
+      "mlae_rel_rmse": 0.8013101546013394,
+      "mc_rel_rmse": 0.9295293441477838
+    },
+    {
+      "target": "joint_exceedance",
+      "exact_value": 0.01255825,
+      "max_power": 1,
+      "queries": 400,
+      "mlae_rel_rmse": 0.27926359602987977,
+      "mc_rel_rmse": 0.49769664896253635
+    },
+    {
+      "target": "joint_exceedance",
+      "exact_value": 0.01255825,
+      "max_power": 2,
+      "queries": 900,
+      "mlae_rel_rmse": 0.1366254415618312,
+      "mc_rel_rmse": 0.33225305964423235
+    },
+    {
+      "target": "joint_exceedance",
+      "exact_value": 0.01255825,
+      "max_power": 4,
+      "queries": 1800,
+      "mlae_rel_rmse": 0.08009783013618448,
+      "mc_rel_rmse": 0.20165687757161724
+    },
+    {
+      "target": "joint_exceedance",
+      "exact_value": 0.01255825,
+      "max_power": 8,
+      "queries": 3500,
+      "mlae_rel_rmse": 0.04308729429634509,
+      "mc_rel_rmse": 0.15929147573496852
+    },
+    {
+      "target": "joint_exceedance",
+      "exact_value": 0.01255825,
+      "max_power": 16,
+      "queries": 6800,
+      "mlae_rel_rmse": 0.021847744356515354,
+      "mc_rel_rmse": 0.1112669604205484
+    },
+    {
+      "target": "joint_exceedance",
+      "exact_value": 0.01255825,
+      "max_power": 32,
+      "queries": 13300,
+      "mlae_rel_rmse": 0.012086869191118938,
+      "mc_rel_rmse": 0.08307546609681846
+    },
+    {
+      "target": "layer_payout",
+      "exact_value": 0.010951468812038737,
+      "max_power": 0,
+      "queries": 100,
+      "mlae_rel_rmse": 0.9346148701583764,
+      "mc_rel_rmse": 0.6847812187005246
+    },
+    {
+      "target": "layer_payout",
+      "exact_value": 0.010951468812038737,
+      "max_power": 1,
+      "queries": 400,
+      "mlae_rel_rmse": 0.3004546903927023,
+      "mc_rel_rmse": 0.3377567297444349
+    },
+    {
+      "target": "layer_payout",
+      "exact_value": 0.010951468812038737,
+      "max_power": 2,
+      "queries": 900,
+      "mlae_rel_rmse": 0.16863131459194525,
+      "mc_rel_rmse": 0.24723031958895864
+    },
+    {
+      "target": "layer_payout",
+      "exact_value": 0.010951468812038737,
+      "max_power": 4,
+      "queries": 1800,
+      "mlae_rel_rmse": 0.0998343366449485,
+      "mc_rel_rmse": 0.1781477969681048
+    },
+    {
+      "target": "layer_payout",
+      "exact_value": 0.010951468812038737,
+      "max_power": 8,
+      "queries": 3500,
+      "mlae_rel_rmse": 0.0580168452768711,
+      "mc_rel_rmse": 0.12081469509005155
+    },
+    {
+      "target": "layer_payout",
+      "exact_value": 0.010951468812038737,
+      "max_power": 16,
+      "queries": 6800,
+      "mlae_rel_rmse": 0.03388256007538808,
+      "mc_rel_rmse": 0.085870576307014
+    },
+    {
+      "target": "layer_payout",
+      "exact_value": 0.010951468812038737,
+      "max_power": 32,
+      "queries": 13300,
+      "mlae_rel_rmse": 0.03884835064716318,
+      "mc_rel_rmse": 0.061958326431678215
+    }
+  ],
+  "dependence": [
+    {
+      "dependence": "Gaussian rho=0 (independent)",
+      "target": "joint_exceedance",
+      "exact_value": 0.0012567499999999998,
+      "mlae_mean": 0.0012567611665611738,
+      "mlae_sd": 4.7309956399314756e-05
+    },
+    {
+      "dependence": "Gaussian rho=0 (independent)",
+      "target": "layer_payout",
+      "exact_value": 0.0072254603790626905,
+      "mlae_mean": 0.0072246629303522655,
+      "mlae_sd": 0.00010599748411958326
+    },
+    {
+      "dependence": "Gaussian rho=0.5",
+      "target": "joint_exceedance",
+      "exact_value": 0.0075905,
+      "mlae_mean": 0.007596280323693938,
+      "mlae_sd": 0.0001083876394860561
+    },
+    {
+      "dependence": "Gaussian rho=0.5",
+      "target": "layer_payout",
+      "exact_value": 0.010526140505467461,
+      "mlae_mean": 0.010477751829325178,
+      "mlae_sd": 0.0002772426415119756
+    },
+    {
+      "dependence": "t df=30 rho=0.5",
+      "target": "joint_exceedance",
+      "exact_value": 0.008178999999999999,
+      "mlae_mean": 0.008224441751263132,
+      "mlae_sd": 0.0003038340584189021
+    },
+    {
+      "dependence": "t df=30 rho=0.5",
+      "target": "layer_payout",
+      "exact_value": 0.010595588155906152,
+      "mlae_mean": 0.010535495406618373,
+      "mlae_sd": 0.00041434222493010107
+    },
+    {
+      "dependence": "t df=10 rho=0.5",
+      "target": "joint_exceedance",
+      "exact_value": 0.00927225,
+      "mlae_mean": 0.009293915163360535,
+      "mlae_sd": 9.772553236419708e-05
+    },
+    {
+      "dependence": "t df=10 rho=0.5",
+      "target": "layer_payout",
+      "exact_value": 0.010660608578814961,
+      "mlae_mean": 0.010665410969438585,
+      "mlae_sd": 0.00012589904365105205
+    },
+    {
+      "dependence": "t df=5 rho=0.5",
+      "target": "joint_exceedance",
+      "exact_value": 0.010738000000000001,
+      "mlae_mean": 0.010726084410288283,
+      "mlae_sd": 0.0001405148253063093
+    },
+    {
+      "dependence": "t df=5 rho=0.5",
+      "target": "layer_payout",
+      "exact_value": 0.010787378415704351,
+      "mlae_mean": 0.010750825642973985,
+      "mlae_sd": 0.000322580941349782
+    },
+    {
+      "dependence": "t df=3 rho=0.5",
+      "target": "joint_exceedance",
+      "exact_value": 0.01255825,
+      "mlae_mean": 0.01257743909247039,
+      "mlae_sd": 0.00014058878385597893
+    },
+    {
+      "dependence": "t df=3 rho=0.5",
+      "target": "layer_payout",
+      "exact_value": 0.010951468812038737,
+      "mlae_mean": 0.010940117525800422,
+      "mlae_sd": 0.00011643258710196513
+    },
+    {
+      "dependence": "t df=2 rho=0.5",
+      "target": "joint_exceedance",
+      "exact_value": 0.01428075,
+      "mlae_mean": 0.014368125070106803,
+      "mlae_sd": 0.0002139195407480564
+    },
+    {
+      "dependence": "t df=2 rho=0.5",
+      "target": "layer_payout",
+      "exact_value": 0.0111260604351225,
+      "mlae_mean": 0.011139548250855289,
+      "mlae_sd": 0.00013560873825198665
+    }
+  ],
+  "noise_toy": [
+    {
+      "depol_per_oracle_call": 0.0,
+      "queries": 6800,
+      "mlae_rel_rmse": 0.021510750097917676,
+      "mlae_rel_bias": -0.0001545252283685254,
+      "mc_rel_rmse": 0.10906066273040782
+    },
+    {
+      "depol_per_oracle_call": 0.0001,
+      "queries": 6800,
+      "mlae_rel_rmse": 0.023700871478725703,
+      "mlae_rel_bias": -9.020448328798673e-05,
+      "mc_rel_rmse": 0.10906066273040782
+    },
+    {
+      "depol_per_oracle_call": 0.0003,
+      "queries": 6800,
+      "mlae_rel_rmse": 0.022166448514263276,
+      "mlae_rel_bias": 0.0017451513054040362,
+      "mc_rel_rmse": 0.10906066273040782
+    },
+    {
+      "depol_per_oracle_call": 0.001,
+      "queries": 6800,
+      "mlae_rel_rmse": 0.023995331498677264,
+      "mlae_rel_bias": 0.007662404091427546,
+      "mc_rel_rmse": 0.10906066273040782
+    },
+    {
+      "depol_per_oracle_call": 0.003,
+      "queries": 6800,
+      "mlae_rel_rmse": 0.031186026969387607,
+      "mlae_rel_bias": 0.018188287711938613,
+      "mc_rel_rmse": 0.10906066273040782
+    },
+    {
+      "depol_per_oracle_call": 0.01,
+      "queries": 6800,
+      "mlae_rel_rmse": 0.05094883324306739,
+      "mlae_rel_bias": 0.04576387110341163,
+      "mc_rel_rmse": 0.10906066273040782
+    }
+  ]
+}
